@@ -437,19 +437,26 @@ a {
 	height: 10%;
 }
 
+.footer-line {
+	position: inherit;
+	width: 57%;
+	border-color: #94ECDC;
+	background-color: #94ECDC;
+}
+
 .footer-image { 
 	opacity: 0.800000011920929;
 	position: inherit;
-	left: 5%;
-    width: 15%;
-	bottom: 30%;
+	left: 2%;
+    width: 12.5%;
+	bottom: 10%;
 }
 
 .footer-text {
 	font-family: Inter;
-	font-size: 1.3vw;
+	font-size: 1.1vw;
 	color: white;
 	position: inherit;
-	left: 22%;
-	bottom: 58%;
+	left: 17%;
+	bottom: 30%;
 }
