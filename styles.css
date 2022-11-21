@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    background-attachment: fixed;
+    background-image:linear-gradient(0deg, rgba(9.000000413507223, 32.00000189244747, 63.000000044703484, 1) 0%,rgba(83.00000265240669, 120.00000044703484, 149.00000631809235, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container { 
+	width:100%;
+	height:100%;
+	display: grid;
+	position: relative;
+	z-index:0;
+}
+
+.text, .image-card {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.text {
+	margin-top: 15%;
+	margin-left: 0.5%;
+	width: 80%;
+	height: 60%;
+}
+
+.image-header {
+    margin-left: 9%;
+    width: 50%;
+}
+
+.slogan { 
+	color:rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+	width: 80%;
+	font-family: Inter;
+	text-align:left;
+	font-size:2vw;
+    font-weight:bold;
+	letter-spacing:0;
+	line-height:px;
+	margin-left: 9%;
+}
+
+.quote { 
+	color:rgba(255, 252.87500202655792, 252.87500202655792, 1);
+	margin-top: 2%;
+	width: 80%;
+	font-family: Inter;
+	text-align:left;
+	font-size:1vw;
+	letter-spacing:0;
+	line-height:px;
+	margin-left: 9%;
+}
+
+.text hr {
+    margin-left: 9%;
+    width: 80%;
+    background-color: rgba(231.62500709295273, 13.511466979980469, 222.90047764778137, 0.25);
+}
+
+.discover-me {
+	background-color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+	color: white;
+	border-radius: 7px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 17%;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1.6vw;
+	margin-top: 6%;
+
+    margin-left: 9%;
+
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.discover-me:hover {
+	background-color: rgba(231.62500709295273, 13.511466979980469, 222.90047764778137, 0.25);
+	color: black;
+}
+
+.navbar { 
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	z-index: 1;
+}
+
+.navitems {
+	position: absolute;
+    white-space: nowrap;
+    right: 17.5%;
+    top: 30%;
+}
+
+.navitem {
+    margin-left: 10%;
+    width: 40%;
+	color:rgba(255, 255, 255, 1);
+	margin-right: 2%;
+	font-family:Inter;
+	text-align:left;
+	font-size:1vw;
+	letter-spacing:0;
+    display: inline;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.navitem:hover {
+    color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+}
+
+.nav-get-started {
+    padding: 4%;
+    border-radius: 10px;
+    border: 1px solid rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+}
+
+.nav-get-started:hover {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.brand-logo { 
+	opacity: 0.800000011920929;
+	position: inherit;
+	left: 5%;
+	display: inline;
+    width: 15%;
+    top: 30%;
+}
+
+.components {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 120%;
+}
+
+.row1 {
+    margin-top: 8%;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.row2 {
+    margin-top: 1%;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.row3 {
+    margin-top: 1%;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.card {
+    width: 25%;
+	text-align: center;
+}
+
+.card-image {
+    min-width: 100px;
+	max-width: 200px;
+	width: 40%;
+    height: auto;
+	max-height: 200px;
+}
+
+.card-name {
+	color: white;
+	text-align: center;
+    font-family: Inter;
+    font-size:1.5vw;
+}
+
+.card-position {
+	color: white;
+    font-family: Inter;
+    text-align: left;
+    width: 20%;
+    margin-left: 2%;
+    font-size:1vw;
+}
+
+.card-right {
+    margin-right: 2%;
+}
+
+.component-text {
+    color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+    font-family: Inter;
+    font-size:3.5vw;
+    font-weight: bolder;
+}
+
+.component-logo {
+    min-width: 200px;
+	max-width: 290px;
+    width: 30%;
+    height: auto;
+	max-height: 286px;
+}
+
+
+
+.comparison {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 260%;
+}
+
+.comparison-title {
+    color:#94ECDC;
+	width: 80%;
+	font-family: Inter;
+	font-size:3vw;
+    font-weight:bold;
+}
+
+.comparison-table {
+    max-width: 1000px;
+    min-width: 500px;
+    width: 80%;
+    height: auto;
+}
+
+.more-detail {
+    border: 1px solid #94ECDC;
+	background: none;
+	color: white;
+	border-radius: 7px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 17%;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1.6vw;
+	margin-top: 6%;
+
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.more-detail:hover {
+	background-color: #94ECDC;
+	color: black;
+}
+
+
+.get-started {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 400%;
+}
+
+.store {
+	border-left: 2px solid white;
+	padding-left: 1%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.provide {
+	padding-left: 1%;
+	border-left: 2px solid white;
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+}
+
+.store-text {
+	color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+    font-family: Inter;
+    font-size:3.5vw;
+    font-weight: bolder;
+}
+
+.provide-text {
+	color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+    font-family: Inter;
+    font-size:3.5vw;
+    font-weight: bolder;
+}
+
+.provide-button {
+    border: 1px solid #94ECDC;
+	background: none;
+	color: white;
+	border-radius: 7px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 17%;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1.6vw;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.provide-button:hover {
+	background-color: #94ECDC;
+	color: black;
+}
+
+.store-button {
+    border: 1px solid #94ECDC;
+	background: none;
+	color: white;
+	border-radius: 7px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 17%;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1.6vw;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.store-button:hover {
+	background-color: #94ECDC;
+	color: black;
+}
