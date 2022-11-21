@@ -60,7 +60,6 @@ a {
 .text hr {
     margin-left: 9%;
     width: 80%;
-    background-color: rgba(231.62500709295273, 13.511466979980469, 222.90047764778137, 0.25);
 }
 
 .discover-me {
@@ -73,7 +72,7 @@ a {
 	text-align: center;
 	font-family: Inter;
 	font-size: 1.6vw;
-	margin-top: 6%;
+	margin-top: 1%;
 
     margin-left: 9%;
 
@@ -138,11 +137,13 @@ a {
     top: 30%;
 }
 
+
+
 .components {
 	width: 100%;
 	height:100%;
 	position: absolute;
-	top: 120%;
+	top: 140%;
 }
 
 .row1 {
@@ -184,6 +185,7 @@ a {
 	text-align: center;
     font-family: Inter;
     font-size:1.5vw;
+	font-weight: bold;
 }
 
 .card-position {
@@ -215,12 +217,99 @@ a {
 }
 
 
+.our-tech {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 280%;
+}
+
+.col1 {
+	position: inherit;
+	width: 50%;
+}
+
+.col1-image {
+	max-width: 500px;
+    min-width: 200px;
+    width: 80%;
+    height: auto;
+}
+
+.col2 {
+	position: inherit;
+	width: 50%;
+	right: 5%;
+}
+
+.col2-title {
+	color:rgb(207, 33, 149);
+	width: 80%;
+	font-family: Inter;
+	text-align:left;
+	font-weight:bold;
+	font-size:2.3vw;
+	letter-spacing:0;
+	line-height:px;
+}
+
+.box {
+	margin-top: 5%;
+	display: flex;
+}
+
+.box-image {
+    width: 100px;
+    height: 100px;
+}
+
+.box-text {
+	margin-left: 3%;
+}
+
+.box-text-title {
+	color: white;
+    font-family: Inter;
+    font-size:1.5vw;
+	font-weight: bold;
+}
+
+.box-text-content {
+	color: white;
+    font-family: Inter;
+    font-size:1vw;
+	margin-top: 1%;
+}
+
+.learn-more {
+	position: inherit;
+	left: 20%;
+	background-color: rgba(201.00000321865082, 100.00000163912773, 167.00000524520874, 1);
+	color: white;
+	border-radius: 7px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 25%;
+	text-align: center;
+	font-family: Inter;
+	font-size: 1.6vw;
+	margin-top: 10%;
+	margin-left: 9%;
+
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.learn-more:hover {
+	background-color: rgba(231.62500709295273, 13.511466979980469, 222.90047764778137, 0.25);
+	color: black;
+}
 
 .comparison {
 	width: 100%;
 	height:100%;
 	position: absolute;
-	top: 260%;
+	top: 420%;
 }
 
 .comparison-title {
@@ -249,7 +338,7 @@ a {
 	text-align: center;
 	font-family: Inter;
 	font-size: 1.6vw;
-	margin-top: 6%;
+	margin-top: 1%;
 
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
@@ -261,11 +350,12 @@ a {
 }
 
 
+
 .get-started {
 	width: 100%;
 	height:100%;
 	position: absolute;
-	top: 400%;
+	top: 560%;
 }
 
 .store {
@@ -278,8 +368,8 @@ a {
 .provide {
 	padding-left: 1%;
 	border-left: 2px solid white;
-	position: absolute;
-	bottom: 10%;
+	position: inherit;
+	bottom: 15%;
 	right: 5%;
 }
 
@@ -310,6 +400,7 @@ a {
 	font-size: 1.6vw;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
+	margin-top: 5%;
 }
 
 .provide-button:hover {
@@ -330,9 +421,35 @@ a {
 	font-size: 1.6vw;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
+	margin-top: 2%;
 }
 
 .store-button:hover {
 	background-color: #94ECDC;
 	color: black;
+}
+
+
+.footer {
+	position: absolute;
+	top: 700%;
+	width: 100%;
+	height: 10%;
+}
+
+.footer-image { 
+	opacity: 0.800000011920929;
+	position: inherit;
+	left: 5%;
+    width: 15%;
+	bottom: 30%;
+}
+
+.footer-text {
+	font-family: Inter;
+	font-size: 1.3vw;
+	color: white;
+	position: inherit;
+	left: 22%;
+	bottom: 58%;
 }
